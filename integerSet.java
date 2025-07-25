@@ -6,7 +6,7 @@ import javax.management.RuntimeErrorException;
  * 
  */
 public class integerSet {
-    ArrayList <integerSet> Numbers ; // Rep
+    ArrayList <Integer> Numbers ; // Rep
     // ห้ามตัวเลขซ้ำ
     // เลขเรียงจากน้อยไปมาก
     // ห้ามเป็น null
@@ -17,7 +17,7 @@ public class integerSet {
         CheckRep();
 
     }
-}
+
     private void CheckRep(){
         if(Numbers==null)
             throw new RuntimeException("Numbers");
